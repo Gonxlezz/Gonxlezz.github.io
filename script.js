@@ -24,7 +24,7 @@ function openShare() {
   // Usar la URL actual o una URL base si es local
   let shareUrl = window.location.href;
   if (shareUrl.includes('file://')) {
-    shareUrl = 'https://gonxlezz.github.io/'; // Cambia esto por tu URL real
+    shareUrl = 'https://kxyvg18.example.com'; // Cambia esto por tu URL real
   }
   
   linkDisplay.textContent = shareUrl;
