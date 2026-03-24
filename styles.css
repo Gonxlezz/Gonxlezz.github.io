@@ -36,6 +36,13 @@ body::before {
   align-items: center;
 }
 
+.logo-img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-out 0.5s both;
+}
+
 @keyframes slideInDown {
   from {
     opacity: 0;
