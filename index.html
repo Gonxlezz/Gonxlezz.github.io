@@ -11,25 +11,46 @@
 <body>
 
 <div class="container">
-  <div class="profile-section">
-    <div class="glow-effect"></div>
-    <img src="monkey.jpeg" alt="Perfil de KXYVG18" class="profile-img">
+  <div class="images-row">
+    <div class="profile-section">
+      <img src="killua.jpeg" alt="Killua" class="profile-img">
+    </div>
+    <div class="profile-section">
+      <div class="glow-effect"></div>
+      <img src="monkey.jpeg" alt="Perfil de KXYVG18" class="profile-img">
+    </div>
   </div>
   
-  <h1>KXYVG18</h1>
+  <div class="text-section">
+  <h3>ITACHIㅤㅤㅤㅤKXYVG18</h3>
   <p class="subtitle">Mapeadores Mobilador 🏆</p>
 
   <div class="links">
-    <a href="https://whatsapp.com/channel/0029VbCUEqa2phHNlnvNSV1u" target="_blank">📱 Grupo de WhatsApp</a>
-    <a href="https://www.instagram.com/kxyvg18/" target="_blank">📸 Instagram</a>
+    <div class="instagram-fila">
+    <a href="https://www.instagram.com/kxyvg18/" target="_blank" class="instagram-link">📸 Instagram</a>
+    <a href="https://www.instagram.com/kxyvg18/" target="_blank" class="instagram-link">📸 Instagram</a>
+  </div>
+
+    <a href="https://whatsapp.com/channel/0029VbCUEqa2phHNlnvNSV1u" target="_blank">📱Grupo de WhatsApp</a>
     <a href="https://www.mediafire.com/file/h9wizj2yokxniwy/Mapeadores_Mobilador.zip/file" target="_blank">📥 Descargar archivos</a>
   </div>
 
-  <button class="share-btn" onclick="openShare()">🔗 Compartir página</button>
+  <!-- Nueva sección con dos enlaces de Instagram en la misma fila -->
+
+
+  <div class="share-buttons">
+    <button class="share-btn whatsapp" onclick="shareToWhatsApp()">💬 WhatsApp</button>
+    <button class="share-btn copy" onclick="copyLink()">📋 Copiar</button>
+  </div>
+
+  <div class="creditos">
+    <a href="https://wa.me/522221180471" target="_blank" class="credito-btn">Créditos de los mapeadores</a>
+  </div>
 
   <div class="social-icons">
     <a href="https://wa.me/?text=Mira%20esta%20página:%20" target="_blank" title="WhatsApp">💬</a>
     <a href="https://www.instagram.com/kxyvg18/" target="_blank" title="Instagram">📷</a>
+  </div>
   </div>
 </div>
 
@@ -65,7 +86,6 @@
         <span>Copiar</span>
       </button>
     </div>
-  </div>
 </div>
 
 <script src="script.js"></script>
